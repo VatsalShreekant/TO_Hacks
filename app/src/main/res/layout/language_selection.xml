@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/english_btn"
+        android:layout_width="177dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="51dp"
+        android:background="@android:color/holo_green_light"
+        android:text="English"
+        android:textcolor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/french_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lang_selection_lbl" />
+
+    <Button
+        android:id="@+id/french_btn"
+        android:layout_width="177dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="209dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Francais"
+        android:textcolor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/english_btn" />
+
+    <TextView
+        android:id="@+id/welcome_lbl"
+        android:layout_width="235dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="89dp"
+        android:text="Welcome to VaxApp"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/lang_selection_lbl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lang_selection_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="231dp"
+        android:layout_marginBottom="59dp"
+        android:text="Select one of the following languages to begin:"
+        app:layout_constraintBottom_toTopOf="@+id/english_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
+
+</android.support.constraint.ConstraintLayout>
