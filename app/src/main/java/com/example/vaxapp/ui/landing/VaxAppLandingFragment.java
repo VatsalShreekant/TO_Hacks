@@ -24,7 +24,7 @@ public class VaxAppLandingFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.landing_fragment, container, false);
+        return inflater.inflate(R.layout.landing_activity, container, false);
     }
 
     @Override

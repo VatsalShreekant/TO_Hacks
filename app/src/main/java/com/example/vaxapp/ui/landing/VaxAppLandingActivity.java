@@ -15,7 +15,7 @@ public class VaxAppLandingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.landing_fragment);
+        setContentView(R.layout.landing_activity);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.container, VaxAppLandingFragment.newInstance())
@@ -23,8 +23,8 @@ public class VaxAppLandingActivity extends AppCompatActivity {
         }
 
         // Setting UI here:
-        TextView landingTextView = findViewById(R.id.landing_title_text);
-        landingTextView.setText(R.string.vax_app_name);
+        //TextView landingTextView = (TextView)findViewById(R.id.landing_title_text);
+        //landingTextView.setText(R.string.vax_app_name);
         ImageView vaccineIcon = findViewById(R.id.vaccine_image_view);
         vaccineIcon.setImageResource(R.drawable.vaccine);
         TextView landingSelectView = findViewById(R.id.landing_select_text);
