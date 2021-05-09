@@ -1,0 +1,24 @@
+com/example/vaxapp/ui/main/MainViewModel.java
+ com.example.vaxapp.ui.main.MainViewModel
+com/example/vaxapp/BuildConfig.java
+ com.example.vaxapp.BuildConfig
+com/example/vaxapp/MainActivity.java
+ com.example.vaxapp.MainActivity
+com/example/vaxapp/EligibilityCriteriaActivity.java
+ com.example.vaxapp.EligibilityCriteriaActivity
+com/example/vaxapp/LandingActivity.java
+ com.example.vaxapp.LandingActivity
+com/example/vaxapp/NotificationPage.java
+ com.example.vaxapp.NotificationPage
+com/example/vaxapp/ui/main/MainFragment.java
+ com.example.vaxapp.ui.main.MainFragment
+com/example/vaxapp/MapActivity.java
+ com.example.vaxapp.MapActivity
+com/example/vaxapp/Pop_Up_Registration.java
+ com.example.vaxapp.Pop_Up_Registration
+com/example/vaxapp/HarlemStreetActivity.java
+ com.example.vaxapp.HarlemStreetActivity
+com/example/vaxapp/BrockStActivity.java
+ com.example.vaxapp.BrockStActivity
+com/example/vaxapp/RegistrationActivity.java
+ com.example.vaxapp.RegistrationActivity
