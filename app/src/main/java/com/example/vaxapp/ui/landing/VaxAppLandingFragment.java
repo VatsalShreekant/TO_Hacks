@@ -1,6 +1,7 @@
-package com.example.vaxapp.ui.main;
+package com.example.vaxapp.ui.landing;
 
 import androidx.lifecycle.ViewModelProvider;
+
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,26 +12,25 @@ import android.view.ViewGroup;
 
 import com.example.vaxapp.R;
 
-public class MainFragment extends Fragment {
+public class VaxAppLandingFragment extends Fragment {
 
-    private MainViewModel mViewModel;
+    private VaxAppLandingViewModel landingViewModel;
 
-    public static MainFragment newInstance() {
-        return new MainFragment();
+    public static VaxAppLandingFragment newInstance() {
+        return new VaxAppLandingFragment();
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.main_fragment, container, false);
+        return inflater.inflate(R.layout.landing_fragment, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(MainViewModel.class);
+        landingViewModel = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(VaxAppLandingViewModel.class);
         // TODO: Use the ViewModel
     }
-
 }
