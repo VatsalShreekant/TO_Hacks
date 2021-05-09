@@ -1,5 +1,5 @@
 # TO_Hacks: VaxApp
-![plot](VatsalShreekant/TO_Hacks/app_demo.png)
+![app_demo](https://user-images.githubusercontent.com/32462270/117578363-fcb49c80-b0bb-11eb-96ae-09a54d0964f3.PNG)
 
 ## Inspiration:
 People having to stand in long line ups outside of Covid-19 pop-up vaccine clinics, without being certain that they would receive the vaccine during their visit
