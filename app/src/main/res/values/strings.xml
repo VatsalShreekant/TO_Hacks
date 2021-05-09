@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">VaxApp</string>
+    <string name="no_connection">No internet connection! Cannot be translated!</string>
+    <string name="english_btn">English</string>
+    <string name="french_btn">Francais</string>
+    <string name="welcome_lbl">Welcome to VaxApp</string>
+    <string name="langlbl">Select one of the following languages to begin:</string>
+
 </resources>
