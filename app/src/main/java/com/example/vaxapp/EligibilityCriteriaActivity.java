@@ -6,21 +6,22 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-public class NotificationPage extends AppCompatActivity {
+public class EligibilityCriteriaActivity extends AppCompatActivity {
     public void backButton(View v){
         Log.i("info:","Back Button Worked");
-        Intent intent = new Intent(this, RegistrationActivity.class);
+        Intent intent = new Intent(this, Pop_Up_Registration.class);
         startActivity(intent);
     }
 
     public void nextButton(View v){
         Log.i("info:","Next Button Worked");
-//        Intent intent = new Intent(this, NotificationPage.class);
-//        startActivity(intent);
+        Intent intent = new Intent(this, NotificationPage.class);
+        startActivity(intent);
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notification_page);
+        setContentView(R.layout.activity_eligibility_criteria);
     }
 }
