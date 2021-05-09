@@ -6,23 +6,25 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-public class NotificationPage extends AppCompatActivity {
+public class MapActivity extends AppCompatActivity {
     public void backButton(View v){
         Log.i("info:","Back Button Worked");
-        Intent intent = new Intent(this, RegistrationActivity.class);
+        Intent intent = new Intent(this, NotificationPage.class);
         startActivity(intent);
     }
 
-    public void nextButton(View v){
-        Log.i("info:","Next Button Worked");
-//        Intent intent = new Intent(this, NotificationPage.class);
-//        startActivity(intent);
-        Intent intent = new Intent(this, MapActivity.class);
+    public void harlem(View v){
+        Intent intent = new Intent(this, HarlemStreetActivity.class);
+        startActivity(intent);
+    }
+
+    public void brock(View v){
+        Intent intent = new Intent(this, BrockStActivity.class);
         startActivity(intent);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notification_page);
+        setContentView(R.layout.activity_map);
     }
 }

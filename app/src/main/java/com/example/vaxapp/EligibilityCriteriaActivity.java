@@ -15,7 +15,7 @@ public class EligibilityCriteriaActivity extends AppCompatActivity {
 
     public void nextButton(View v){
         Log.i("info:","Next Button Worked");
-        Intent intent = new Intent(this, NotificationPage.class);
+        Intent intent = new Intent(this, HarlemStreetActivity.class);
         startActivity(intent);
     }
 
