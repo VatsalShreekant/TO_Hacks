@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.languageselection.LanguageSelection">
 
     <Button
         android:id="@+id/english_btn"
@@ -13,7 +13,7 @@
         android:layout_height="0dp"
         android:layout_marginBottom="51dp"
         android:background="@android:color/holo_green_light"
-        android:text="English"
+        android:text="@string/english_btn"
         android:textcolor="@android:color/black"
         app:layout_constraintBottom_toTopOf="@+id/french_btn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +26,7 @@
         android:layout_height="0dp"
         android:layout_marginBottom="209dp"
         android:background="@android:color/holo_green_light"
-        android:text="Francais"
+        android:text="@string/french_btn"
         android:textcolor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +39,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="104dp"
         android:layout_marginBottom="89dp"
-        android:text="Welcome to VaxApp"
+        android:text="@string/welcome_lbl"
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/lang_selection_lbl"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="231dp"
         android:layout_marginBottom="59dp"
-        android:text="Select one of the following languages to begin:"
+        android:text="@string/langlbl"
         app:layout_constraintBottom_toTopOf="@+id/english_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"

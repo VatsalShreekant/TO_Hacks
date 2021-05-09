@@ -1,4 +1,4 @@
-package com.example.vaxapp.ui.main;
+package com.example.vaxapp.ui.languageselection;
 
 import android.arch.lifecycle.ViewModelProvider;
 import android.os.Bundle;
@@ -11,25 +11,25 @@ import android.view.ViewGroup;
 
 import com.example.vaxapp.R;
 
-public class MainFragment extends Fragment {
+public class LanguageSelectionFragment extends Fragment {
 
-    private MainViewModel mViewModel;
+    private LanguageSelectionViewModel mLangSelecViewModel;
 
-    public static MainFragment newInstance() {
-        return new MainFragment();
+    public static LanguageSelectionFragment newInstance() {
+        return new LanguageSelectionFragment();
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.main_fragment, container, false);
+        return inflater.inflate(R.layout.language_selection_fragment, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(MainViewModel.class);
+        mLangSelecViewModel = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(LanguageSelectionViewModel.class);
         // TODO: Use the ViewModel
     }
 
