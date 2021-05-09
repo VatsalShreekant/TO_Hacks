@@ -1,4 +1,6 @@
 # TO_Hacks: VaxApp
+![alt text](https://github.com/[VatsalShreekant]/[TO_Hacks]/blob/[main]/app_demo.png?raw=true)
+
 ## Inspiration:
 People having to stand in long line ups outside of Covid-19 pop-up vaccine clinics, without being certain that they would receive the vaccine during their visit
 - Having large crowds of people outside these clinics also poses a risk to the spread of covid-19
