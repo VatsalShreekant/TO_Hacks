@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void nextButton(View v){
         Log.i("info:","Next Button Worked");
-        Intent intent = new Intent(this, ToActivity.class);
+        Intent intent = new Intent(this, NotificationPage.class);
         startActivity(intent);
     }
 
