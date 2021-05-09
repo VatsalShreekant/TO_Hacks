@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "vaxapp",
+  "private_key_id": "7d9c89e6f5d37f84ebb49db4a28fb1d561e937ea",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3pM7lm+NZ0hT0\nLKV6pPaUKKOCvQyNCmJ1aWbBiozl+1TN611Zj6T4onDOdh5O2U+q+8aDLVKj/LPo\n2s/OvXhVjxQQUpDplsRTqd2fPb9XSieDf8d5BK5qLh6qHWzTw/kHuXyxNRxIqPLO\nXgUapHa1e2EAIjMk9BVhXywimoepXODdEpuU7/73PNMezyNLGDO/SLefx8LP+giu\nnU39wKOzjdB2s3CTO8hBx9Kr3/SXLOTRql0jdOqLdVSYj3mv5SGNBASs3mqFDVek\neWsgZaWvHNO6cdZXJze8YQjXHZjMXXbk9lLYjQMtv0U/v94p/IgEOaAD4dvGSgh/\nYDCTvZiBAgMBAAECggEABC/WOxGRno0gcYFeaSGUsO5iQqCjxh1r/uhJxvTX3zBv\n5Qf43LSz2qqoGWpDqPbhuZtm5xEOoXLT+Trv4kibPebMBXk/GOGZP/Jkp/Tvmq0J\nTJa1Cgh2H4abUrPmtMdIM18NEuSL7LN+tv9uwgY+N0daVUyc+jqJuEAZZf/m7ZCz\nZ4Mz+XQtRAHdGdy8Natz52IiaTBA0S1Bsg5tCjNHUfAXmmio6ATErDCbMpB8Q8B6\nJ04uv2iPJzb/zXEIJoZLlhHlMgMy0fjRaWc7bdWjC8I6I0fyz7HBNArhSkdWj3ii\nTALKCPSDex+uGtZTiCEI3PCO572BgqsBRBSfH5gRBwKBgQD0KHlms5a7hvknG1x5\n4GneDkadRpW6032F4SmyjMUQFbmSvw7duA3RQ+LQTuOYmdZeRxpUsmS3LpJmk6ze\nJMoqTUJ12ZnzeMRxMUX/Y28075j8kZ/U8O5XlS5sojvbusyUw/YZx/EbkWvRPJT4\nfAogZIIapH9exZHHETuXGdB+UwKBgQDAjPk9rVK+ZT+R51H7YySgpi3bTLeVk4+U\nT4BE9CQB+ZfINhlBKCnvLLwjFk7irHwI/c/nC3BWIAIx7yd/CQtbBDiWwD02SJH+\nXsJQDnLgj41Wr9gvqc09Kh/oDSOddjgk3ejFX45+nfuxCFHBTrP0jLZgdNEKb9rn\nm8s+NFxrWwKBgAVfRpyN4wkpRR4pKfW8jFfIdKFNRkogESj69VHqawOZlsW10nvq\natNp7PmsYrGe4OqeIeQvMKwfKDV9llYk9RXNMWMqcIq844WiEeo2o+HES9dy1NN4\noaXnsGfPggWprIqxbR7QGWwD3R1zecul3wsravlvGSZaroR0ypzegonlAoGAQLyk\n55moYh8EWnedVpmkrOZyMHMAnid4dHKuO4ChwpA5+bRGlWN9hc5SirFrYEaBhTxg\nc9uirzIfys4PR2SxDq7Cn9yON/v6Kb2OMwBImztoV6bTVmMOf+vzwj74pG4kvjBl\nnEZeUC+peYHEiut9EVFl19QunAWzYX89u/I6yFUCgYEAmWHhU+R7h5lQiOVz9VT+\nAaJRJPdB8r/GNbsLz/FesC4tSg/YmizcvHeJ8PTbamXjB5ZpkYvgUO+gCr2IL65V\ngZcf/8vuswelRHtq2zPgcSdnkdx56GB3B9y509zgs6UOWliw/5XRvlUdd8gtvGl+\nRlLq4FjCtYbIv+UFbt8TuyU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "harkiran-g@vaxapp.iam.gserviceaccount.com",
+  "client_id": "113971734789874304157",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/harkiran-g%40vaxapp.iam.gserviceaccount.com"
+}
